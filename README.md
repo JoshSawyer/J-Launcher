@@ -1,1 +1,3 @@
-J Launcher
+# J Launcher
+## About
+A simple program launcher written in C# and contructed in Windows Forms, in continuous development...
