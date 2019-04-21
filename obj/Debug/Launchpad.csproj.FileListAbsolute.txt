@@ -1,0 +1,11 @@
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.csprojAssemblyReference.cache
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.primaryForm.resources
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.Properties.Resources.resources
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.csproj.GenerateResource.cache
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.csproj.CoreCompileInputs.cache
+C:\Users\joshu\Desktop\Github Projects\Launchpad\bin\Debug\Launchpad.exe.config
+C:\Users\joshu\Desktop\Github Projects\Launchpad\bin\Debug\Launchpad.exe
+C:\Users\joshu\Desktop\Github Projects\Launchpad\bin\Debug\Launchpad.pdb
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.exe
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.pdb
+C:\Users\joshu\Desktop\Github Projects\Launchpad\obj\Debug\Launchpad.infoEntry.resources
