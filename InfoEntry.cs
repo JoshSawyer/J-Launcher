@@ -39,6 +39,16 @@ namespace Launchpad
             Close();
         }
 
+        private void Browse_Click(object sender, EventArgs e)
+        {
+            DialogResult result = getFile.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                dirInput.Text = getFile.FileName;
+            }
+        }
+
         private void InfoEntry_Load(object sender, EventArgs e) { }
 
         private void Label1_Click(object sender, EventArgs e) { }
