@@ -28,33 +28,39 @@ namespace Launchpad
 
         public void GetGamesFromStorage()
         {
-            string[] files = Directory.GetFiles(Directory.GetCurrentDirectory() + @"\gamesinfo\", "g~~~*");
-
-            if (files.Length < 1)
+            try
             {
-                return;
-            }
+                string[] files = Directory.GetFiles(Directory.GetCurrentDirectory() + @"\gamesinfo\", "g~~~*");
 
-            int successfulLoads = 0;
-
-            foreach (string file in files)
-            {
-                try
+                if (files.Length < 1)
                 {
-                    AddGame(Game.LoadGame(file));
-                    successfulLoads++;
+                    return;
                 }
-                catch
-                {
-                    MessageBox.Show(Game.LoadGame(file).GetInfo()[0] + ";" + file, "File Error");
-                }
-            }
 
-            if (successfulLoads == 0)
-            {
-                return;
+                int successfulLoads = 0;
+                foreach (string file in files)
+                {
+                    try
+                    {
+                        AddGame(Game.LoadGame(file));
+                        successfulLoads++;
+                    }
+                    catch
+                    {
+                        MessageBox.Show(Game.LoadGame(file).GetInfo()[0] + ";" + file, "File Error");
+                    }
+                }
+
+                if (successfulLoads == 0)
+                {
+                    return;
+                }
+                clearStorage.Visible = true;
             }
-            clearStorage.Visible = true;
+            catch
+            {
+                Directory.CreateDirectory(Directory.GetCurrentDirectory() + @"\gamesinfo\");
+            }
         }
 
         public bool AddGame(Game newGame)
