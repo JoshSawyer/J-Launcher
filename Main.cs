@@ -42,7 +42,7 @@ namespace Launchpad
                 {
                     try
                     {
-                        AddGame(Game.LoadGame(file));
+                        AddGame(Game.LoadGame(file), -1);
                         successfulLoads++;
                     }
                     catch
@@ -63,29 +63,37 @@ namespace Launchpad
             }
         }
 
-        public bool AddGame(Game newGame)
+        public bool AddGame(Game newGame, int idToReset)
         {
             if (newGame == null)
             {
                 return false;
             }
 
-            int space = -1;
-            for (int i = 0; i <= 3; i++)
+            int space;
+            if (idToReset < 0)
             {
-                if (gameBoxes[i].Tag.ToString() == "undefined")
+                space = -1;
+                for (int i = 0; i <= 3; i++)
                 {
-                    space = i;
-                    break;
+                    if (gameBoxes[i].Tag.ToString() == "undefined")
+                    {
+                        space = i;
+                        break;
+                    }
+                }
+                if (space == -1)
+                {
+                    return false;
+                }
+                else if (space == 3)
+                {
+                    newGameBtn.Enabled = false;
                 }
             }
-            if (space == -1)
+            else
             {
-                return false;
-            }
-            else if (space == 3)
-            {
-                newGameBtn.Enabled = false;
+                space = idToReset;
             }
 
             gameBoxes[space].Enabled = true;
@@ -135,7 +143,7 @@ namespace Launchpad
 
         private void NewGame_Click(object sender, EventArgs e)
         {
-            new infoEntry(this).ShowDialog();
+            new infoEntry(this, -1).ShowDialog();
         }
         private void StoreBtn_Click(object sender, EventArgs e)
         {
@@ -200,7 +208,7 @@ namespace Launchpad
         }
         private void EditClick(int id)
         {
-            //same as adding
+            new infoEntry(this, id).ShowDialog();
         }
         private void ClearClick(int id, bool showMsg)
         {

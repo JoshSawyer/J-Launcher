@@ -63,6 +63,7 @@
             this.nameInput.Name = "nameInput";
             this.nameInput.Size = new System.Drawing.Size(215, 20);
             this.nameInput.TabIndex = 2;
+            this.nameInput.TextChanged += new System.EventHandler(this.NameInput_TextChanged);
             // 
             // dirInput
             // 
