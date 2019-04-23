@@ -97,6 +97,7 @@
             this.group4.TabIndex = 4;
             this.group4.TabStop = false;
             this.group4.Tag = "undefined";
+            this.group4.Visible = false;
             this.group4.Enter += new System.EventHandler(this.Group4_Enter);
             // 
             // group4tb
@@ -167,6 +168,7 @@
             this.group3.TabIndex = 3;
             this.group3.TabStop = false;
             this.group3.Tag = "undefined";
+            this.group3.Visible = false;
             this.group3.Enter += new System.EventHandler(this.Group3_Enter_1);
             // 
             // group3tb
@@ -237,6 +239,7 @@
             this.group2.TabIndex = 2;
             this.group2.TabStop = false;
             this.group2.Tag = "undefined";
+            this.group2.Visible = false;
             this.group2.Enter += new System.EventHandler(this.Group2_Enter);
             // 
             // group2tb
@@ -306,6 +309,7 @@
             this.group1.TabIndex = 1;
             this.group1.TabStop = false;
             this.group1.Tag = "undefined";
+            this.group1.Visible = false;
             this.group1.Enter += new System.EventHandler(this.Group1_Enter);
             // 
             // group1tb
