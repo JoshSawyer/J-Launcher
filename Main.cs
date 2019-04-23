@@ -96,6 +96,7 @@ namespace Launchpad
                 space = idToReset;
             }
 
+            gameBoxes[space].Visible = true;
             gameBoxes[space].Enabled = true;
             gameBoxes[space].Tag = "defined";
 
@@ -262,6 +263,7 @@ namespace Launchpad
                     break;
             }
 
+            gameBoxes[id].Visible = false;
             gameBoxes[id].Enabled = false;
             gameBoxes[id].Tag = "undefined";
 
@@ -345,5 +347,8 @@ namespace Launchpad
         private void PrimaryForm_KeyDown(object sender, KeyEventArgs e) { }
         private void PrimaryForm_FormClosing(object sender, FormClosingEventArgs e) { }
         private void PrimaryForm_Scroll(object sender, ScrollEventArgs e) { }
+        private void Group1tb_TextChanged(object sender, EventArgs e) { }
+        private void Group3tb_TextChanged(object sender, EventArgs e) { }
+        private void Group4tb_TextChanged(object sender, EventArgs e) { }
     }
 }

@@ -97,19 +97,24 @@
             this.group4.TabIndex = 4;
             this.group4.TabStop = false;
             this.group4.Tag = "undefined";
+            this.group4.Visible = false;
             this.group4.Enter += new System.EventHandler(this.Group4_Enter);
             // 
             // group4tb
             // 
+            this.group4tb.BackColor = System.Drawing.Color.White;
+            this.group4tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group4tb.Location = new System.Drawing.Point(6, 19);
             this.group4tb.Name = "group4tb";
             this.group4tb.ReadOnly = true;
-            this.group4tb.Size = new System.Drawing.Size(177, 20);
+            this.group4tb.Size = new System.Drawing.Size(154, 26);
             this.group4tb.TabIndex = 5;
+            this.group4tb.TextChanged += new System.EventHandler(this.Group4tb_TextChanged);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Location = new System.Drawing.Point(6, 19);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(362, 67);
@@ -120,34 +125,37 @@
             // g4b1
             // 
             this.g4b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.g4b1.BackColor = System.Drawing.Color.White;
             this.g4b1.Location = new System.Drawing.Point(6, 90);
             this.g4b1.Name = "g4b1";
             this.g4b1.Size = new System.Drawing.Size(362, 37);
             this.g4b1.TabIndex = 2;
             this.g4b1.Text = "Start";
-            this.g4b1.UseVisualStyleBackColor = true;
+            this.g4b1.UseVisualStyleBackColor = false;
             this.g4b1.Click += new System.EventHandler(this.G4b1_Click);
             // 
             // g4b3
             // 
             this.g4b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.g4b3.BackColor = System.Drawing.Color.LightGray;
             this.g4b3.Location = new System.Drawing.Point(191, 133);
             this.g4b3.Name = "g4b3";
             this.g4b3.Size = new System.Drawing.Size(177, 23);
             this.g4b3.TabIndex = 1;
             this.g4b3.Text = "Clear";
-            this.g4b3.UseVisualStyleBackColor = true;
+            this.g4b3.UseVisualStyleBackColor = false;
             this.g4b3.Click += new System.EventHandler(this.G4b3_Click);
             // 
             // g4b2
             // 
             this.g4b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.g4b2.BackColor = System.Drawing.Color.LightGray;
             this.g4b2.Location = new System.Drawing.Point(6, 133);
             this.g4b2.Name = "g4b2";
             this.g4b2.Size = new System.Drawing.Size(177, 23);
             this.g4b2.TabIndex = 0;
             this.g4b2.Text = "Edit";
-            this.g4b2.UseVisualStyleBackColor = true;
+            this.g4b2.UseVisualStyleBackColor = false;
             this.g4b2.Click += new System.EventHandler(this.G4b2_Click);
             // 
             // group3
@@ -164,19 +172,24 @@
             this.group3.TabIndex = 3;
             this.group3.TabStop = false;
             this.group3.Tag = "undefined";
+            this.group3.Visible = false;
             this.group3.Enter += new System.EventHandler(this.Group3_Enter_1);
             // 
             // group3tb
             // 
+            this.group3tb.BackColor = System.Drawing.Color.White;
+            this.group3tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group3tb.Location = new System.Drawing.Point(6, 19);
             this.group3tb.Name = "group3tb";
             this.group3tb.ReadOnly = true;
-            this.group3tb.Size = new System.Drawing.Size(177, 20);
+            this.group3tb.Size = new System.Drawing.Size(154, 26);
             this.group3tb.TabIndex = 5;
+            this.group3tb.TextChanged += new System.EventHandler(this.Group3tb_TextChanged);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Location = new System.Drawing.Point(6, 19);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(362, 67);
@@ -187,34 +200,37 @@
             // g3b1
             // 
             this.g3b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.g3b1.BackColor = System.Drawing.Color.White;
             this.g3b1.Location = new System.Drawing.Point(6, 90);
             this.g3b1.Name = "g3b1";
             this.g3b1.Size = new System.Drawing.Size(362, 37);
             this.g3b1.TabIndex = 2;
             this.g3b1.Text = "Start";
-            this.g3b1.UseVisualStyleBackColor = true;
+            this.g3b1.UseVisualStyleBackColor = false;
             this.g3b1.Click += new System.EventHandler(this.G3b1_Click);
             // 
             // g3b3
             // 
             this.g3b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.g3b3.BackColor = System.Drawing.Color.LightGray;
             this.g3b3.Location = new System.Drawing.Point(191, 133);
             this.g3b3.Name = "g3b3";
             this.g3b3.Size = new System.Drawing.Size(177, 23);
             this.g3b3.TabIndex = 1;
             this.g3b3.Text = "Clear";
-            this.g3b3.UseVisualStyleBackColor = true;
+            this.g3b3.UseVisualStyleBackColor = false;
             this.g3b3.Click += new System.EventHandler(this.G3b3_Click);
             // 
             // g3b2
             // 
             this.g3b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.g3b2.BackColor = System.Drawing.Color.LightGray;
             this.g3b2.Location = new System.Drawing.Point(6, 133);
             this.g3b2.Name = "g3b2";
             this.g3b2.Size = new System.Drawing.Size(177, 23);
             this.g3b2.TabIndex = 0;
             this.g3b2.Text = "Edit";
-            this.g3b2.UseVisualStyleBackColor = true;
+            this.g3b2.UseVisualStyleBackColor = false;
             this.g3b2.Click += new System.EventHandler(this.G3b2_Click);
             // 
             // group2
@@ -231,19 +247,23 @@
             this.group2.TabIndex = 2;
             this.group2.TabStop = false;
             this.group2.Tag = "undefined";
+            this.group2.Visible = false;
             this.group2.Enter += new System.EventHandler(this.Group2_Enter);
             // 
             // group2tb
             // 
+            this.group2tb.BackColor = System.Drawing.Color.White;
+            this.group2tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group2tb.Location = new System.Drawing.Point(6, 19);
             this.group2tb.Name = "group2tb";
             this.group2tb.ReadOnly = true;
-            this.group2tb.Size = new System.Drawing.Size(177, 20);
+            this.group2tb.Size = new System.Drawing.Size(154, 26);
             this.group2tb.TabIndex = 5;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Location = new System.Drawing.Point(6, 19);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(362, 67);
@@ -254,34 +274,37 @@
             // g2b1
             // 
             this.g2b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.g2b1.BackColor = System.Drawing.Color.White;
             this.g2b1.Location = new System.Drawing.Point(6, 90);
             this.g2b1.Name = "g2b1";
             this.g2b1.Size = new System.Drawing.Size(362, 37);
             this.g2b1.TabIndex = 2;
             this.g2b1.Text = "Start";
-            this.g2b1.UseVisualStyleBackColor = true;
+            this.g2b1.UseVisualStyleBackColor = false;
             this.g2b1.Click += new System.EventHandler(this.G2b1_Click);
             // 
             // g2b3
             // 
             this.g2b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.g2b3.BackColor = System.Drawing.Color.LightGray;
             this.g2b3.Location = new System.Drawing.Point(191, 133);
             this.g2b3.Name = "g2b3";
             this.g2b3.Size = new System.Drawing.Size(177, 23);
             this.g2b3.TabIndex = 1;
             this.g2b3.Text = "Clear";
-            this.g2b3.UseVisualStyleBackColor = true;
+            this.g2b3.UseVisualStyleBackColor = false;
             this.g2b3.Click += new System.EventHandler(this.G2b3_Click);
             // 
             // g2b2
             // 
             this.g2b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.g2b2.BackColor = System.Drawing.Color.LightGray;
             this.g2b2.Location = new System.Drawing.Point(6, 133);
             this.g2b2.Name = "g2b2";
             this.g2b2.Size = new System.Drawing.Size(177, 23);
             this.g2b2.TabIndex = 0;
             this.g2b2.Text = "Edit";
-            this.g2b2.UseVisualStyleBackColor = true;
+            this.g2b2.UseVisualStyleBackColor = false;
             this.g2b2.Click += new System.EventHandler(this.G2b2_Click);
             // 
             // group1
@@ -298,19 +321,24 @@
             this.group1.TabIndex = 1;
             this.group1.TabStop = false;
             this.group1.Tag = "undefined";
+            this.group1.Visible = false;
             this.group1.Enter += new System.EventHandler(this.Group1_Enter);
             // 
             // group1tb
             // 
+            this.group1tb.BackColor = System.Drawing.Color.White;
+            this.group1tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group1tb.Location = new System.Drawing.Point(6, 19);
             this.group1tb.Name = "group1tb";
             this.group1tb.ReadOnly = true;
-            this.group1tb.Size = new System.Drawing.Size(177, 20);
+            this.group1tb.Size = new System.Drawing.Size(154, 26);
             this.group1tb.TabIndex = 4;
+            this.group1tb.TextChanged += new System.EventHandler(this.Group1tb_TextChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Location = new System.Drawing.Point(6, 19);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(362, 67);
@@ -321,34 +349,37 @@
             // g1b1
             // 
             this.g1b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.g1b1.BackColor = System.Drawing.Color.White;
             this.g1b1.Location = new System.Drawing.Point(6, 90);
             this.g1b1.Name = "g1b1";
             this.g1b1.Size = new System.Drawing.Size(362, 37);
             this.g1b1.TabIndex = 2;
             this.g1b1.Text = "Start";
-            this.g1b1.UseVisualStyleBackColor = true;
+            this.g1b1.UseVisualStyleBackColor = false;
             this.g1b1.Click += new System.EventHandler(this.G1b1_Click);
             // 
             // g1b3
             // 
             this.g1b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.g1b3.BackColor = System.Drawing.Color.LightGray;
             this.g1b3.Location = new System.Drawing.Point(191, 133);
             this.g1b3.Name = "g1b3";
             this.g1b3.Size = new System.Drawing.Size(177, 23);
             this.g1b3.TabIndex = 1;
             this.g1b3.Text = "Clear";
-            this.g1b3.UseVisualStyleBackColor = true;
+            this.g1b3.UseVisualStyleBackColor = false;
             this.g1b3.Click += new System.EventHandler(this.G1b3_Click);
             // 
             // g1b2
             // 
             this.g1b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.g1b2.BackColor = System.Drawing.Color.LightGray;
             this.g1b2.Location = new System.Drawing.Point(6, 133);
             this.g1b2.Name = "g1b2";
             this.g1b2.Size = new System.Drawing.Size(177, 23);
             this.g1b2.TabIndex = 0;
             this.g1b2.Text = "Edit";
-            this.g1b2.UseVisualStyleBackColor = true;
+            this.g1b2.UseVisualStyleBackColor = false;
             this.g1b2.Click += new System.EventHandler(this.G1b2_Click);
             // 
             // newGameBtn
@@ -406,12 +437,12 @@
             // toTray
             // 
             this.toTray.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.toTray.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.toTray.Location = new System.Drawing.Point(705, 0);
+            this.toTray.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.toTray.Location = new System.Drawing.Point(705, -6);
             this.toTray.Name = "toTray";
-            this.toTray.Size = new System.Drawing.Size(52, 18);
+            this.toTray.Size = new System.Drawing.Size(85, 24);
             this.toTray.TabIndex = 5;
-            this.toTray.Text = "To Tray";
+            this.toTray.Text = "Tray";
             this.toTray.UseVisualStyleBackColor = true;
             this.toTray.Click += new System.EventHandler(this.ToTray_Click);
             // 
@@ -419,6 +450,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(784, 361);
             this.Controls.Add(this.toTray);
             this.Controls.Add(this.clearStorage);
