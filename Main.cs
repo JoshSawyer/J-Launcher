@@ -345,5 +345,20 @@ namespace Launchpad
         private void PrimaryForm_KeyDown(object sender, KeyEventArgs e) { }
         private void PrimaryForm_FormClosing(object sender, FormClosingEventArgs e) { }
         private void PrimaryForm_Scroll(object sender, ScrollEventArgs e) { }
+
+        private void Group1tb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Group3tb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Group4tb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -101,11 +101,13 @@
             // 
             // group4tb
             // 
+            this.group4tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group4tb.Location = new System.Drawing.Point(6, 19);
             this.group4tb.Name = "group4tb";
             this.group4tb.ReadOnly = true;
-            this.group4tb.Size = new System.Drawing.Size(177, 20);
+            this.group4tb.Size = new System.Drawing.Size(154, 26);
             this.group4tb.TabIndex = 5;
+            this.group4tb.TextChanged += new System.EventHandler(this.Group4tb_TextChanged);
             // 
             // pictureBox4
             // 
@@ -168,11 +170,13 @@
             // 
             // group3tb
             // 
+            this.group3tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group3tb.Location = new System.Drawing.Point(6, 19);
             this.group3tb.Name = "group3tb";
             this.group3tb.ReadOnly = true;
-            this.group3tb.Size = new System.Drawing.Size(177, 20);
+            this.group3tb.Size = new System.Drawing.Size(154, 26);
             this.group3tb.TabIndex = 5;
+            this.group3tb.TextChanged += new System.EventHandler(this.Group3tb_TextChanged);
             // 
             // pictureBox3
             // 
@@ -235,10 +239,11 @@
             // 
             // group2tb
             // 
+            this.group2tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group2tb.Location = new System.Drawing.Point(6, 19);
             this.group2tb.Name = "group2tb";
             this.group2tb.ReadOnly = true;
-            this.group2tb.Size = new System.Drawing.Size(177, 20);
+            this.group2tb.Size = new System.Drawing.Size(154, 26);
             this.group2tb.TabIndex = 5;
             // 
             // pictureBox2
@@ -302,11 +307,13 @@
             // 
             // group1tb
             // 
+            this.group1tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.group1tb.Location = new System.Drawing.Point(6, 19);
             this.group1tb.Name = "group1tb";
             this.group1tb.ReadOnly = true;
-            this.group1tb.Size = new System.Drawing.Size(177, 20);
+            this.group1tb.Size = new System.Drawing.Size(154, 26);
             this.group1tb.TabIndex = 4;
+            this.group1tb.TextChanged += new System.EventHandler(this.Group1tb_TextChanged);
             // 
             // pictureBox1
             // 
@@ -406,12 +413,12 @@
             // toTray
             // 
             this.toTray.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.toTray.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.toTray.Location = new System.Drawing.Point(705, 0);
+            this.toTray.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.toTray.Location = new System.Drawing.Point(705, -6);
             this.toTray.Name = "toTray";
-            this.toTray.Size = new System.Drawing.Size(52, 18);
+            this.toTray.Size = new System.Drawing.Size(85, 24);
             this.toTray.TabIndex = 5;
-            this.toTray.Text = "To Tray";
+            this.toTray.Text = "Tray";
             this.toTray.UseVisualStyleBackColor = true;
             this.toTray.Click += new System.EventHandler(this.ToTray_Click);
             // 
