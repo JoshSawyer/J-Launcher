@@ -8,9 +8,6 @@ namespace Launchpad
         primaryForm initialForm;
         int curGameId;
 
-        string nameMemory;
-        string dirMemory;
-
         public infoEntry(primaryForm _initialForm, int _curGameId)
         {
             InitializeComponent();
