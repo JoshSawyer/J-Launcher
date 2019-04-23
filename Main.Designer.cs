@@ -437,12 +437,12 @@
             // toTray
             // 
             this.toTray.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.toTray.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.toTray.Location = new System.Drawing.Point(705, -6);
+            this.toTray.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.toTray.Location = new System.Drawing.Point(763, -15);
             this.toTray.Name = "toTray";
-            this.toTray.Size = new System.Drawing.Size(85, 24);
+            this.toTray.Size = new System.Drawing.Size(23, 34);
             this.toTray.TabIndex = 5;
-            this.toTray.Text = "Tray";
+            this.toTray.Text = "↓";
             this.toTray.UseVisualStyleBackColor = true;
             this.toTray.Click += new System.EventHandler(this.ToTray_Click);
             // 
