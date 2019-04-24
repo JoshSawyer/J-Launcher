@@ -31,9 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_2));
             this.toTray = new System.Windows.Forms.Button();
             this.newBtn = new System.Windows.Forms.Button();
-            this.listBox = new System.Windows.Forms.ListBox();
             this.deleteBtn = new System.Windows.Forms.Button();
             this.startBtn = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // toTray
@@ -60,15 +61,6 @@
             this.newBtn.UseVisualStyleBackColor = false;
             this.newBtn.Click += new System.EventHandler(this.NewBtn_Click);
             // 
-            // listBox
-            // 
-            this.listBox.FormattingEnabled = true;
-            this.listBox.Location = new System.Drawing.Point(12, 12);
-            this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(760, 316);
-            this.listBox.TabIndex = 10;
-            this.listBox.SelectedIndexChanged += new System.EventHandler(this.ListBox_SelectedIndexChanged);
-            // 
             // deleteBtn
             // 
             this.deleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -93,16 +85,25 @@
             this.startBtn.UseVisualStyleBackColor = false;
             this.startBtn.Click += new System.EventHandler(this.StartBtn_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(760, 312);
+            this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
+            // 
             // Main_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(784, 361);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.toTray);
-            this.Controls.Add(this.listBox);
             this.Controls.Add(this.newBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -111,6 +112,7 @@
             this.Name = "Main_2";
             this.Text = "Launchpad";
             this.Load += new System.EventHandler(this.Main_2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -119,8 +121,8 @@
 
         private System.Windows.Forms.Button toTray;
         private System.Windows.Forms.Button newBtn;
-        private System.Windows.Forms.ListBox listBox;
         private System.Windows.Forms.Button deleteBtn;
         private System.Windows.Forms.Button startBtn;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

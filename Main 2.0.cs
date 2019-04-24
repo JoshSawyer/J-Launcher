@@ -33,12 +33,12 @@ namespace Launchpad
         {
             new infoEntry(this, -1).ShowDialog();
         }
-        public bool AddGame(Game newGame, int idToReset)//
+        public bool AddGame(Game newGame)
         {
-            listBox.Items.Add(
-                Icon.ExtractAssociatedIcon(newGame.GetInfo()[1]).ToBitmap()/* +
-                newGame.GetInfo()[0] + ", " + newGame.GetInfo()[1]*/
-            );
+            listBox.Items.Add(new object[] {
+                Icon.ExtractAssociatedIcon(newGame.GetInfo()[1]).ToBitmap(),
+                newGame.GetInfo()[0] + ", " + newGame.GetInfo()[1]
+            });
             return true;
         }
 
@@ -47,19 +47,22 @@ namespace Launchpad
             if (curItem == null) return;
 
             int comIndex = curItem.IndexOf(", ") + 2;
-            Process.Start(
-                curItem.Substring(comIndex, curItem.Length - comIndex)
-            );
+            Process.Start(curItem.Substring(comIndex, curItem.Length - comIndex));
         }
 
-        private void DeleteBtn_Click(object sender, EventArgs e)//
+        private void DeleteBtn_Click(object sender, EventArgs e)
         {
             if (curItem == null) return;
 
-            listBox.Items.Remove(curItem);
+            dataGridView1.Items.Remove(curItem);
             curItem = null;
         }
 
         private void Main_2_Load(object sender, EventArgs e) { }
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

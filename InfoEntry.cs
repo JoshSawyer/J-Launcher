@@ -72,7 +72,7 @@ namespace Launchpad
                 }
                 else
                 {
-                    initialForm2.AddGame(newGame, -1);
+                    initialForm2.AddGame(newGame);
                 }
             }
             else
@@ -83,7 +83,7 @@ namespace Launchpad
                 }
                 else
                 {
-                    initialForm2.AddGame(newGame, curGameId);
+                    initialForm2.AddGame(newGame);
                 }
             }
 

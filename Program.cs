@@ -5,8 +5,7 @@ namespace Launchpad
 {
     static class Program
     {
-        [STAThread]
-        static void Main()
+        [STAThread]()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
