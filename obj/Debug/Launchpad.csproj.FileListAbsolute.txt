@@ -20,3 +20,4 @@ C:\Users\joshu\Desktop\Github Projects\J Launcher\obj\Debug\Launchpad.csproj.Gen
 C:\Users\joshu\Desktop\Github Projects\J Launcher\obj\Debug\Launchpad.csproj.CoreCompileInputs.cache
 C:\Users\joshu\Desktop\Github Projects\J Launcher\obj\Debug\Launchpad.exe
 C:\Users\joshu\Desktop\Github Projects\J Launcher\obj\Debug\Launchpad.pdb
+C:\Users\joshu\Desktop\Github Projects\J Launcher\obj\Debug\Launchpad.Main_2.resources
