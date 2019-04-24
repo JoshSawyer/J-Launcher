@@ -77,7 +77,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(760, 313);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(760, 316);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.TableLayoutPanel1_Paint);
             // 
@@ -89,7 +89,7 @@
             this.group4.Controls.Add(this.g4b3);
             this.group4.Controls.Add(this.g4b2);
             this.group4.Enabled = false;
-            this.group4.Location = new System.Drawing.Point(383, 159);
+            this.group4.Location = new System.Drawing.Point(383, 161);
             this.group4.Name = "group4";
             this.group4.Size = new System.Drawing.Size(374, 151);
             this.group4.TabIndex = 4;
@@ -124,7 +124,7 @@
             // 
             this.g4b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.g4b1.BackColor = System.Drawing.Color.White;
-            this.g4b1.Location = new System.Drawing.Point(6, 90);
+            this.g4b1.Location = new System.Drawing.Point(6, 85);
             this.g4b1.Name = "g4b1";
             this.g4b1.Size = new System.Drawing.Size(362, 37);
             this.g4b1.TabIndex = 2;
@@ -136,7 +136,7 @@
             // 
             this.g4b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.g4b3.BackColor = System.Drawing.Color.LightGray;
-            this.g4b3.Location = new System.Drawing.Point(191, 133);
+            this.g4b3.Location = new System.Drawing.Point(191, 124);
             this.g4b3.Name = "g4b3";
             this.g4b3.Size = new System.Drawing.Size(177, 23);
             this.g4b3.TabIndex = 1;
@@ -148,7 +148,7 @@
             // 
             this.g4b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.g4b2.BackColor = System.Drawing.Color.LightGray;
-            this.g4b2.Location = new System.Drawing.Point(6, 133);
+            this.g4b2.Location = new System.Drawing.Point(6, 124);
             this.g4b2.Name = "g4b2";
             this.g4b2.Size = new System.Drawing.Size(177, 23);
             this.g4b2.TabIndex = 0;
@@ -164,7 +164,7 @@
             this.group3.Controls.Add(this.g3b3);
             this.group3.Controls.Add(this.g3b2);
             this.group3.Enabled = false;
-            this.group3.Location = new System.Drawing.Point(3, 159);
+            this.group3.Location = new System.Drawing.Point(3, 161);
             this.group3.Name = "group3";
             this.group3.Size = new System.Drawing.Size(374, 151);
             this.group3.TabIndex = 3;
@@ -199,7 +199,7 @@
             // 
             this.g3b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.g3b1.BackColor = System.Drawing.Color.White;
-            this.g3b1.Location = new System.Drawing.Point(6, 90);
+            this.g3b1.Location = new System.Drawing.Point(6, 85);
             this.g3b1.Name = "g3b1";
             this.g3b1.Size = new System.Drawing.Size(362, 37);
             this.g3b1.TabIndex = 2;
@@ -211,7 +211,7 @@
             // 
             this.g3b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.g3b3.BackColor = System.Drawing.Color.LightGray;
-            this.g3b3.Location = new System.Drawing.Point(191, 133);
+            this.g3b3.Location = new System.Drawing.Point(191, 124);
             this.g3b3.Name = "g3b3";
             this.g3b3.Size = new System.Drawing.Size(177, 23);
             this.g3b3.TabIndex = 1;
@@ -223,7 +223,7 @@
             // 
             this.g3b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.g3b2.BackColor = System.Drawing.Color.LightGray;
-            this.g3b2.Location = new System.Drawing.Point(6, 133);
+            this.g3b2.Location = new System.Drawing.Point(6, 124);
             this.g3b2.Name = "g3b2";
             this.g3b2.Size = new System.Drawing.Size(177, 23);
             this.g3b2.TabIndex = 0;
@@ -273,7 +273,7 @@
             // 
             this.g2b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.g2b1.BackColor = System.Drawing.Color.White;
-            this.g2b1.Location = new System.Drawing.Point(6, 90);
+            this.g2b1.Location = new System.Drawing.Point(6, 85);
             this.g2b1.Name = "g2b1";
             this.g2b1.Size = new System.Drawing.Size(362, 37);
             this.g2b1.TabIndex = 2;
@@ -285,7 +285,7 @@
             // 
             this.g2b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.g2b3.BackColor = System.Drawing.Color.LightGray;
-            this.g2b3.Location = new System.Drawing.Point(191, 133);
+            this.g2b3.Location = new System.Drawing.Point(191, 124);
             this.g2b3.Name = "g2b3";
             this.g2b3.Size = new System.Drawing.Size(177, 23);
             this.g2b3.TabIndex = 1;
@@ -297,7 +297,7 @@
             // 
             this.g2b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.g2b2.BackColor = System.Drawing.Color.LightGray;
-            this.g2b2.Location = new System.Drawing.Point(6, 133);
+            this.g2b2.Location = new System.Drawing.Point(6, 124);
             this.g2b2.Name = "g2b2";
             this.g2b2.Size = new System.Drawing.Size(177, 23);
             this.g2b2.TabIndex = 0;
@@ -348,7 +348,7 @@
             // 
             this.g1b1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.g1b1.BackColor = System.Drawing.Color.White;
-            this.g1b1.Location = new System.Drawing.Point(6, 90);
+            this.g1b1.Location = new System.Drawing.Point(6, 85);
             this.g1b1.Name = "g1b1";
             this.g1b1.Size = new System.Drawing.Size(362, 37);
             this.g1b1.TabIndex = 2;
@@ -360,7 +360,7 @@
             // 
             this.g1b3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.g1b3.BackColor = System.Drawing.Color.LightGray;
-            this.g1b3.Location = new System.Drawing.Point(191, 133);
+            this.g1b3.Location = new System.Drawing.Point(191, 124);
             this.g1b3.Name = "g1b3";
             this.g1b3.Size = new System.Drawing.Size(177, 23);
             this.g1b3.TabIndex = 1;
@@ -372,7 +372,7 @@
             // 
             this.g1b2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.g1b2.BackColor = System.Drawing.Color.LightGray;
-            this.g1b2.Location = new System.Drawing.Point(6, 133);
+            this.g1b2.Location = new System.Drawing.Point(6, 124);
             this.g1b2.Name = "g1b2";
             this.g1b2.Size = new System.Drawing.Size(177, 23);
             this.g1b2.TabIndex = 0;
@@ -384,9 +384,9 @@
             // 
             this.newGameBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.newGameBtn.BackColor = System.Drawing.Color.White;
-            this.newGameBtn.Location = new System.Drawing.Point(12, 334);
+            this.newGameBtn.Location = new System.Drawing.Point(12, 330);
             this.newGameBtn.Name = "newGameBtn";
-            this.newGameBtn.Size = new System.Drawing.Size(75, 23);
+            this.newGameBtn.Size = new System.Drawing.Size(75, 29);
             this.newGameBtn.TabIndex = 1;
             this.newGameBtn.Text = "New";
             this.newGameBtn.UseVisualStyleBackColor = false;
@@ -396,12 +396,14 @@
             // 
             this.clearAllBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.clearAllBtn.BackColor = System.Drawing.Color.White;
-            this.clearAllBtn.Location = new System.Drawing.Point(697, 334);
+            this.clearAllBtn.Enabled = false;
+            this.clearAllBtn.Location = new System.Drawing.Point(697, 330);
             this.clearAllBtn.Name = "clearAllBtn";
-            this.clearAllBtn.Size = new System.Drawing.Size(75, 23);
+            this.clearAllBtn.Size = new System.Drawing.Size(75, 29);
             this.clearAllBtn.TabIndex = 2;
             this.clearAllBtn.Text = "Clear All";
             this.clearAllBtn.UseVisualStyleBackColor = false;
+            this.clearAllBtn.Visible = false;
             this.clearAllBtn.Click += new System.EventHandler(this.ClearAll_Click);
             // 
             // trayIcon
