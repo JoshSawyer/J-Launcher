@@ -88,6 +88,20 @@ namespace Launchpad
             }
         }
 
+        public bool Delete()
+        {
+            try
+            {
+                File.Delete(cwd + "g~~~" + gameName + ".txt");
+                Nullify();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         public static bool WipeGames()
         {
             try

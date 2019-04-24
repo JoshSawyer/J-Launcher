@@ -55,7 +55,6 @@ namespace Launchpad
                 {
                     return;
                 }
-                clearStorage.Visible = true;
             }
             catch
             {
@@ -138,7 +137,7 @@ namespace Launchpad
                     break;
             }
             games[space] = newGame;
-
+            Store();
             return true;
         }
 
@@ -146,10 +145,8 @@ namespace Launchpad
         {
             new infoEntry(this, -1).ShowDialog();
         }
-        private void StoreBtn_Click(object sender, EventArgs e)
+        private void Store()
         {
-            bool success = false;
-
             foreach(Game curGame in games)
             {
                 if (curGame != null)
@@ -157,33 +154,11 @@ namespace Launchpad
                     if (curGame.GetInfo()[0] != "")
                     {
                         curGame.Store();
-                        success = true;
                     }
                 }
             }
-            if (!success)
-            {
-                MessageBox.Show("No games can be saved!", "Save Error");
-                return;
-            }
-
-            clearStorage.Visible = true;
         }
 
-        private void ClearStorage_Click(object sender, EventArgs e)
-        {
-            DialogResult confirmDelete = MessageBox.Show("Are you sure you want to clear all?",
-                "Confirm Deletion",
-                MessageBoxButtons.YesNo);
-
-            if (confirmDelete == DialogResult.No)
-            {
-                return;
-            }
-
-            Game.WipeGames();
-            clearStorage.Visible = false;
-        }
         private void ClearAll_Click(object sender, EventArgs e)
         {
             DialogResult confirmDelete = MessageBox.Show("Are you sure you want to clear all?",
@@ -228,7 +203,7 @@ namespace Launchpad
 
             if (games[id] != null)
             {
-                games[id].Nullify();
+                games[id].Delete();
             }
 
             switch (id)

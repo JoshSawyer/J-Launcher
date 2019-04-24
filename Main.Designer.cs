@@ -50,8 +50,6 @@
             this.g1b2 = new System.Windows.Forms.Button();
             this.newGameBtn = new System.Windows.Forms.Button();
             this.clearAllBtn = new System.Windows.Forms.Button();
-            this.storeBtn = new System.Windows.Forms.Button();
-            this.clearStorage = new System.Windows.Forms.Button();
             this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.toTray = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
@@ -385,47 +383,26 @@
             // newGameBtn
             // 
             this.newGameBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.newGameBtn.BackColor = System.Drawing.Color.White;
             this.newGameBtn.Location = new System.Drawing.Point(12, 334);
             this.newGameBtn.Name = "newGameBtn";
             this.newGameBtn.Size = new System.Drawing.Size(75, 23);
             this.newGameBtn.TabIndex = 1;
             this.newGameBtn.Text = "New";
-            this.newGameBtn.UseVisualStyleBackColor = true;
+            this.newGameBtn.UseVisualStyleBackColor = false;
             this.newGameBtn.Click += new System.EventHandler(this.NewGame_Click);
             // 
             // clearAllBtn
             // 
             this.clearAllBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.clearAllBtn.BackColor = System.Drawing.Color.White;
             this.clearAllBtn.Location = new System.Drawing.Point(697, 334);
             this.clearAllBtn.Name = "clearAllBtn";
             this.clearAllBtn.Size = new System.Drawing.Size(75, 23);
             this.clearAllBtn.TabIndex = 2;
             this.clearAllBtn.Text = "Clear All";
-            this.clearAllBtn.UseVisualStyleBackColor = true;
+            this.clearAllBtn.UseVisualStyleBackColor = false;
             this.clearAllBtn.Click += new System.EventHandler(this.ClearAll_Click);
-            // 
-            // storeBtn
-            // 
-            this.storeBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.storeBtn.Location = new System.Drawing.Point(93, 334);
-            this.storeBtn.Name = "storeBtn";
-            this.storeBtn.Size = new System.Drawing.Size(75, 23);
-            this.storeBtn.TabIndex = 3;
-            this.storeBtn.Text = "Save";
-            this.storeBtn.UseVisualStyleBackColor = true;
-            this.storeBtn.Click += new System.EventHandler(this.StoreBtn_Click);
-            // 
-            // clearStorage
-            // 
-            this.clearStorage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.clearStorage.Location = new System.Drawing.Point(616, 334);
-            this.clearStorage.Name = "clearStorage";
-            this.clearStorage.Size = new System.Drawing.Size(75, 23);
-            this.clearStorage.TabIndex = 4;
-            this.clearStorage.Text = "Clear Stored";
-            this.clearStorage.UseVisualStyleBackColor = true;
-            this.clearStorage.Visible = false;
-            this.clearStorage.Click += new System.EventHandler(this.ClearStorage_Click);
             // 
             // trayIcon
             // 
@@ -437,24 +414,23 @@
             // toTray
             // 
             this.toTray.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.toTray.BackColor = System.Drawing.Color.Transparent;
             this.toTray.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.toTray.Location = new System.Drawing.Point(763, -15);
             this.toTray.Name = "toTray";
             this.toTray.Size = new System.Drawing.Size(23, 34);
             this.toTray.TabIndex = 5;
             this.toTray.Text = "↓";
-            this.toTray.UseVisualStyleBackColor = true;
+            this.toTray.UseVisualStyleBackColor = false;
             this.toTray.Click += new System.EventHandler(this.ToTray_Click);
             // 
             // primaryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(784, 361);
             this.Controls.Add(this.toTray);
-            this.Controls.Add(this.clearStorage);
-            this.Controls.Add(this.storeBtn);
             this.Controls.Add(this.clearAllBtn);
             this.Controls.Add(this.newGameBtn);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -513,8 +489,6 @@
         private System.Windows.Forms.TextBox group1tb;
         private System.Windows.Forms.Button newGameBtn;
         private System.Windows.Forms.Button clearAllBtn;
-        private System.Windows.Forms.Button storeBtn;
-        private System.Windows.Forms.Button clearStorage;
         private System.Windows.Forms.NotifyIcon trayIcon;
         private System.Windows.Forms.Button toTray;
     }
