@@ -5,11 +5,12 @@ namespace Launchpad
 {
     static class Program
     {
-        [STAThread]()
+        [STAThread]
+        static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_2());
+            Application.Run(new primaryForm());
         }
     }
 }

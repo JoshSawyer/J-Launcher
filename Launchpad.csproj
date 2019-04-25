@@ -73,12 +73,6 @@
     <Compile Include="InfoEntry.Designer.cs">
       <DependentUpon>InfoEntry.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main 2.0.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main 2.0.Designer.cs">
-      <DependentUpon>Main 2.0.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,9 +83,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InfoEntry.resx">
       <DependentUpon>InfoEntry.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main 2.0.resx">
-      <DependentUpon>Main 2.0.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
