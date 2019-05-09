@@ -180,7 +180,22 @@ namespace Launchpad
 
         private void StartClick(int id)
         {
-            Process.Start(games[id].GetInfo()[1]);
+            string fullDir = games[id].GetInfo()[1];
+            int fDLength = fullDir.Length;
+
+            int sI = -1;
+            for (sI = fDLength - 1; sI > 0; sI--)
+            {
+                if (fullDir[sI] == '\\')
+                {
+                    break;
+                }
+            }
+
+            string prevDir = Directory.GetCurrentDirectory();
+            Directory.SetCurrentDirectory(fullDir.Substring(0, sI));
+            Process.Start(fullDir.Substring(sI + 1, fDLength - (sI + 1)));
+            Directory.SetCurrentDirectory(prevDir);
         }
         private void EditClick(int id)
         {
